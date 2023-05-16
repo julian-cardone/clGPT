@@ -25,7 +25,7 @@ public class SecurityConfiguration {
                 .csrf()
                 .disable()
                 .authorizeHttpRequests()
-                .requestMatchers("")
+                .requestMatchers("/api/v1/auth/**")     // ** means all the methods within this route
                 .permitAll()
                 .anyRequest()
                 .authenticated()
