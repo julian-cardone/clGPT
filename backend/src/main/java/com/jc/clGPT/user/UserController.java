@@ -1,0 +1,10 @@
+package com.jc.clGPT.user;
+
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class UserController {
+
+
+
+}
