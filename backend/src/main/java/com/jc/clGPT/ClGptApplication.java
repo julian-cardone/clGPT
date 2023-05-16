@@ -12,9 +12,5 @@ public class ClGptApplication {
 		SpringApplication.run(ClGptApplication.class, args);
 	}
 
-//	@Bean
-//	public BCryptPasswordEncoder bCryptPasswordEncoder(){
-//		return new BCryptPasswordEncoder();
-//	}//todo
 
 }
